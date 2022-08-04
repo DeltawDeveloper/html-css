@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./sgame.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+        body{
+            font-family: 'VT323';
+            margin: 0px;
+            padding: 0px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        canvas{
+            box-shadow: black 20px 10px 50px;
+            border: 2px solid white;
+        }
+        h1{
+            font-family: 'VT323';
+            font-size: 6em;
+            margin-top: 5%;
+            color: aliceblue;
+            font-style: italic;
+            text-decoration: underline;
+        }
+        button {
+            margin-top: -50%;
+        }
+    </style>    
+</head>
+
+<body>
+        <h1>Snake Hungry</h1>
+    
+    
+    
+    
+    
+    <table>
+    <tr>
+    <td>
+    <button>
+    <input id="play" type="image" src="media/8bit-icon-13.png" height="40" width="40">
+    </button>
+    </td>
+
+
+    <td>
+    <button>
+    <input class="pause" type="image" src="media/pnghut_button-media-player-multimedia-pause-removebg-preview.png" height="40" width="40">
+    </button>
+    </td>
+    </tr>
+    </table>
+
+    
+    <canvas id="game" width="400" height="400">
+    <script src="sgame.js"></script>
+    <audio src="media/Opening.wav" autoplay></audio>
+    
+    
+</body>
+</html>
